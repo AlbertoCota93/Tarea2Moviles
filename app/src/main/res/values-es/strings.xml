@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <resources>
         <string name="app_name">Tarea2</string>
-        <string name="bike_Text">Bicicleta Retro</string>
+        <string name="bike_texto">Bicicleta Retro</string>
         <string name="bike_Color">Color</string>
         <string name="bike_SizeM">M</string>
         <string name="bike_SizeS">S</string>
         <string name="bike_SizeL">L</string>
         <string name="bike_SizeXL">XL</string>
-    </resources>
 </resources>
