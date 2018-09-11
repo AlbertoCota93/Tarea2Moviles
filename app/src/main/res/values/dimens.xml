@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_margin">10dp</dimen>
+    <dimen name="photoHeight">220dp</dimen>
+    <dimen name="likeSize">55dp</dimen>
+    <dimen name="headerSize">40sp</dimen>
+    <dimen name="bikeColor">20sp</dimen>
+
+</resources>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Tarea2</string>
+    <string name="bike_Text">Retro Bike</string>
+    <string name="bike_Color">Color</string>
+    <string name="bike_SizeM">M</string>
+    <string name="bike_SizeS">S</string>
+    <string name="bike_SizeL">L</string>
+    <string name="bike_SizeXL">XL</string>
 </resources>

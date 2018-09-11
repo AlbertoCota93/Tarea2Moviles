@@ -1,19 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityMain">
+    tools:context=".ActivityMain"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/activity_main_linear"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        >
 
-</android.support.constraint.ConstraintLayout>
+        <ImageView
+            android:src="@drawable/bike"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/app_margin"
+            android:layout_width="match_parent"
+
+            />
+        <view android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorBrown"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9">
+            <TextView
+                android:id="@+id/activity_main_bike_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bike_Text"
+                android:textSize="@dimen/headerSize"
+                android:textColor="@color/colorGray"/>
+            <ImageButton
+                android:id="@+id/activity_main_like_button"
+                android:layout_width="@dimen/likeSize"
+                android:layout_height="@dimen/likeSize"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/emoji_like"
+                android:background="#0fff"
+                />
+            <TextView
+                android:id="@+id/activity_main_bike_color_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bike_Color"
+                android:layout_below="@id/activity_main_bike_header"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/bikeColor"
+                />
+            <RadioGroup
+                android:layout_below="@+id/activity_main_bike_color_text"
+                android:id="@+id/activity_main_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/grayRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorGray"
+                    />
+                <RadioButton
+                    android:id="@+id/brownRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorBrown"
+                    />
+                <RadioButton
+                    android:id="@+id/pinkRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPink"
+                    />
+                <RadioButton
+                    android:id="@+id/blackRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorBlack"
+                    />
+            </RadioGroup>
+                <Button
+                    android:id="@+id/mediumButton"
+                    android:layout_width="@dimen/likeSize"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_main_radio_group"
+                    android:text="@string/bike_SizeM"
+                    android:background="@drawable/shape"
+                    />
+                <Button
+                    android:id="@+id/smallButton"
+                    android:layout_width="@dimen/likeSize"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/mediumButton"
+                    android:layout_below="@id/activity_main_radio_group"
+                    android:text="@string/bike_SizeS"
+                    android:background="@drawable/shape"
+                    />
+                <Button
+                    android:id="@+id/largeButton"
+                    android:layout_width="@dimen/likeSize"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/smallButton"
+                    android:layout_below="@id/activity_main_radio_group"
+                    android:text="@string/bike_SizeL"
+                    android:background="@drawable/shape"
+                    />
+                <Button
+                    android:id="@+id/ExtraLargeButton"
+                    android:layout_width="@dimen/likeSize"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/largeButton"
+                    android:layout_below="@id/activity_main_radio_group"
+                    android:text="@string/bike_SizeXL"
+                    android:background="@drawable/shape"
+                    />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
