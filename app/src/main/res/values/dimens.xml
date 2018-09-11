@@ -5,5 +5,8 @@
     <dimen name="likeSize">55dp</dimen>
     <dimen name="headerSize">40sp</dimen>
     <dimen name="bikeColor">20sp</dimen>
+    <dimen name="buttonMargin">10dp</dimen>
+    <dimen name="labelSize">15sp</dimen>
+
 
 </resources>

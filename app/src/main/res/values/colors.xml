@@ -9,5 +9,6 @@
     <color name="colorBlack">#000000</color>
     <color name="addToCartNotSelected">#AF8C82</color>
     <color name="addToCartSelected">#CFC7C4</color>
+    <color name="colorWhite">#fff</color>
 
 </resources>

@@ -24,14 +24,15 @@
             android:layout_width="match_parent"
 
             />
-        <view android:layout_height="1dp"
+        <View android:layout_height="1dp"
             android:layout_width="match_parent"
             android:background="@color/colorBrown"
             />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".9">
+            android:layout_weight=".9"
+            android:layout_margin="@dimen/app_margin">
             <TextView
                 android:id="@+id/activity_main_bike_header"
                 android:layout_width="wrap_content"
@@ -49,6 +50,7 @@
                 android:background="#0fff"
                 />
             <TextView
+                android:layout_marginTop="@dimen/app_margin"
                 android:id="@+id/activity_main_bike_color_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -88,41 +90,86 @@
                     android:buttonTint="@color/colorBlack"
                     />
             </RadioGroup>
-                <Button
-                    android:id="@+id/mediumButton"
-                    android:layout_width="@dimen/likeSize"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/activity_main_radio_group"
-                    android:text="@string/bike_SizeM"
-                    android:background="@drawable/shape"
-                    />
-                <Button
-                    android:id="@+id/smallButton"
-                    android:layout_width="@dimen/likeSize"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/mediumButton"
-                    android:layout_below="@id/activity_main_radio_group"
-                    android:text="@string/bike_SizeS"
-                    android:background="@drawable/shape"
-                    />
-                <Button
-                    android:id="@+id/largeButton"
-                    android:layout_width="@dimen/likeSize"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/smallButton"
-                    android:layout_below="@id/activity_main_radio_group"
-                    android:text="@string/bike_SizeL"
-                    android:background="@drawable/shape"
-                    />
-                <Button
-                    android:id="@+id/ExtraLargeButton"
-                    android:layout_width="@dimen/likeSize"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/largeButton"
-                    android:layout_below="@id/activity_main_radio_group"
-                    android:text="@string/bike_SizeXL"
-                    android:background="@drawable/shape"
-                    />
+            <Button
+                android:layout_marginTop="@dimen/app_margin"
+                android:id="@+id/mediumButton"
+                android:layout_width="@dimen/likeSize"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_main_radio_group"
+                android:text="@string/bike_SizeM"
+                android:background="@drawable/shape"
+                />
+            <Button
+                android:layout_marginTop="@dimen/app_margin"
+                android:id="@+id/smallButton"
+                android:layout_width="@dimen/likeSize"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/mediumButton"
+                android:layout_below="@id/activity_main_radio_group"
+                android:text="@string/bike_SizeS"
+                android:layout_marginStart="@dimen/buttonMargin"
+                android:background="@drawable/shape"
+                />
+            <Button
+                android:layout_marginTop="@dimen/app_margin"
+                android:id="@+id/largeButton"
+                android:layout_width="@dimen/likeSize"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/smallButton"
+                android:layout_below="@id/activity_main_radio_group"
+                android:layout_marginStart="@dimen/buttonMargin"
+                android:text="@string/bike_SizeL"
+                android:background="@drawable/shape"
+                />
+            <Button
+                android:layout_marginTop="@dimen/app_margin"
+                android:id="@+id/ExtraLargeButton"
+                android:layout_width="@dimen/likeSize"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/largeButton"
+                android:layout_below="@id/activity_main_radio_group"
+                android:text="@string/bike_SizeXL"
+                android:textColor="@color/button_text_color"
+                android:layout_marginStart="@dimen/buttonMargin"
+                android:background="@drawable/shape"
+                />
+            <TextView
+                android:layout_marginTop="@dimen/app_margin"
+                android:id="@+id/activity_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_label"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/labelSize"
+                android:layout_below="@id/ExtraLargeButton"/>
+            <TextView
+                android:id="@+id/activity_bike_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bike_description"
+                android:layout_below="@id/activity_description"/>
+            <TextView
+                android:id="@+id/activity_measurement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/labelSize"
+                android:text="@string/measurement_label"
+                android:layout_below="@id/activity_bike_description"
+                />
+            <TextView
+                android:id="@+id/activity_bike_measurement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bike_measurement"
+                android:layout_below="@id/activity_measurement"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cartButton"
+                android:layout_below="@id/activity_bike_measurement"
+                />
         </RelativeLayout>
     </LinearLayout>
 
