@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarea 2</string>
+    <string name="bike_Text">Bicicleta Retro</string>
+    <string name="bike_Color">Color</string>
+    <string name="bike_SizeM">M</string>
+    <string name="bike_SizeS">S</string>
+    <string name="bike_SizeL">L</string>
+    <string name="bike_SizeXL">XL</string>
+    <string name="cartButton">Agregar al Carrito</string>
+    <string name="cartButtonPressed">Agregado al Carrito</string>
+    <string name="description_label">Descripción</string>
+    <string name="measurement_label">Medición</string>
+    <string name="bike_description">Bastidor de acero ligero personalizado. Sin restaurar en hermosa condición original. Ligeramente usado y bien cuidado. Construcción completa de Récord</string>
+    <string name="bike_measurement">Esta bicicleta tiene el tamaño perfecto para todas las necesidades, desde mediano a extra grande para brindarte una mejor experiencia de conducción. El asiento es de cuero de primera calidad para proporcionar la mejor comodidad que puede pedir</string>
+</resources>

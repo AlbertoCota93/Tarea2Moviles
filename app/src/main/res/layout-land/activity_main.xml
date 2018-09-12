@@ -94,9 +94,9 @@
                 android:id="@+id/mediumButton"
                 android:layout_width="@dimen/likeSize"
                 android:layout_height="wrap_content"
+                android:textColor="@color/button_text_color"
                 android:layout_below="@id/activity_main_radio_group"
                 android:text="@string/bike_SizeM"
-                android:textColor="@color/button_text_color"
                 android:background="@drawable/shape"
                 />
             <Button
@@ -117,10 +117,10 @@
                 android:layout_width="@dimen/likeSize"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@id/smallButton"
+                android:textColor="@color/button_text_color"
                 android:layout_below="@id/activity_main_radio_group"
                 android:layout_marginStart="@dimen/buttonMargin"
                 android:text="@string/bike_SizeL"
-                android:textColor="@color/button_text_color"
                 android:background="@drawable/shape"
                 />
             <Button
