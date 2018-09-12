@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Tarea2</string>
+    <string name="app_name">Homework 2</string>
     <string name="bike_Text">Retro Bike</string>
     <string name="bike_Color">Color</string>
     <string name="bike_SizeM">M</string>
@@ -8,6 +8,8 @@
     <string name="bike_SizeL">L</string>
     <string name="bike_SizeXL">XL</string>
     <string name="cartButton">Add To Cart</string>
+    <string name="cartButtonPressed">Added To Cart</string>
+    <string name="likePressed">+1 to Retro Bike</string>
     <string name="description_label">Description</string>
     <string name="measurement_label">Measurement</string>
     <string name="bike_description">Custom lightweight steel frame. Unrestored in beautiful original condition. Lightly used and well kept. Full super record build</string>
