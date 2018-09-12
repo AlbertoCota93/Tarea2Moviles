@@ -9,6 +9,7 @@
     <string name="bike_SizeXL">XL</string>
     <string name="cartButton">Add To Cart</string>
     <string name="cartButtonPressed">Added To Cart</string>
+    <string name="cartButtonPressed_again">Item Already in the Cart</string>
     <string name="likePressed">+1 to Retro Bike</string>
     <string name="description_label">Description</string>
     <string name="measurement_label">Measurement</string>

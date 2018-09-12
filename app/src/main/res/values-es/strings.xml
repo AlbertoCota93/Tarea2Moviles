@@ -9,6 +9,7 @@
     <string name="bike_SizeXL">XL</string>
     <string name="cartButton">Agregar al Carrito</string>
     <string name="cartButtonPressed">Agregado al Carrito</string>
+    <string name="cartButtonPressed_again">Ya está agregado al Carrito</string>
     <string name="description_label">Descripción</string>
     <string name="measurement_label">Medición</string>
     <string name="bike_description">Bastidor de acero ligero personalizado. Sin restaurar en hermosa condición original. Ligeramente usado y bien cuidado. Construcción completa de Récord</string>

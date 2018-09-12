@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/activity_main_coordinator"
     tools:context=".ActivityMain"
-    >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <LinearLayout
         android:id="@+id/activity_main_linear"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <ImageView
             android:src="@drawable/bike"
@@ -28,7 +29,7 @@
             android:background="@color/colorBrown"
             />
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight=".9"
             android:layout_margin="@dimen/app_margin">
@@ -167,6 +168,7 @@
                 android:layout_below="@id/activity_measurement"
                 />
             <Button
+                android:id="@+id/activity_main_cart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cartButton"
@@ -174,6 +176,5 @@
                 />
         </RelativeLayout>
     </LinearLayout>
-
-
 </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
